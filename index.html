@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/ced66d22a8.js"></script>
 </head>
 <body>
     <div class="main-grid">
@@ -14,9 +15,9 @@
         <h2>SELECT PAYMENT METHOD</h2>
         <hr>
         <div id="payment-method">
-            <div id="cc"><span>Credit Card</span></div>
-            <div id="bank-trans"><span>Bank Transfer</span></div>
-            <div id="paypal"><span>PayPal</span></div>
+            <div id="cc"><i class="fa fa-credit-card"></i><span>Credit Card</span></div>
+            <div id="bank-trans"><i class="fa fa-sync-alt"></i><span>Bank Transfer</span></div>
+            <div id="paypal"><i class="fa fa-cc-paypal"></i><span>PayPal</span></div>
         </div>
 
         <div class="payment-info">
@@ -27,7 +28,8 @@
             
             <div id="card">
                 <label for="cardnum-label"><h3>CARD NUMBER</h3></label>
-                <input type="text" name="" id="card-number" placeholder="0000-0000-000-0000" style="width: 800px; height: 30px;">
+                <input type="text" name="" id="card-number" placeholder="0000-0000-000-0000 "  style="width: 800px; height: 30px;">
+                
             </div>
             
 
@@ -62,16 +64,16 @@
                 <div id="infothree"><strong>iPhone 11 Pro</strong></div>
                 <div id="infofour"><strong>iPhone 11 Pro</strong></div>
                 <div id="infofive"><strong>iPhone 11 Pro</strong></div>
+
+                <article class="bill">
+                    <p id="entryone"><label for="">Subtotal</label></p>
+                    <p id="entrytwo">Shipping</p>
+                    <p id="entrythree"><strong>Total</strong></p>
+                </article>
+                
             </div>
             
-            <div class="bill">
-                <!--<p id="entryone">Subtotal</p>
-                <p id="entrytwo">Shipping</p>
-                <p id="entrythree"><strong>Total</strong></p>-->
-                <span>Subtotal</span>
-                <span>Shipping</span>
-                <span><strong>Total</strong></span>
-            </div>
+            
             
         </div>
 
