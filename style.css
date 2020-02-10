@@ -6,26 +6,29 @@ body{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-column-gap: 1em;
+    padding: 2em;
+    
 }
 
 .boxone{
     
     /* display: flex; */
     border: 1px solid grey;
+    padding: 1em;
+    
 }
 
-.boxtwo{
-    display: flex;
-    border: 1px solid grey;
-}
 
 h2{
     padding-left: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 hr{
     width: 60px;
     margin-left: 20px;
+    /* margin-top: 0; */
 }
 
 #payment-method{
@@ -45,11 +48,66 @@ hr{
     display: flex;
     flex-direction: column;
 }
+#cc{
+    background-color: skyblue;
+}
 
 #name, #card, #date{
     /* padding-left: 20px; */
     margin: 20px;
 }
-#input{
-   width: 30%;
+input{
+    /* padding: 10px; */
+    font-size: 18px;
+    
 }
+#input{
+   width: 50%;
+}
+
+#date{
+    display: flex;
+}
+#month,#year,#cvv{
+    padding: 0.5em;
+}
+
+/* .boxtwo{
+    background-color: lightgray;
+} */
+
+
+.order{
+    
+    border: 1px solid grey;
+    padding: 1em;
+    background-color: white;
+}
+
+.info-box >div {
+    border: 1px solid gray;
+    padding: 1em;
+    margin: 1em;
+    background-color: lightgray;
+}
+
+.bill{
+    background-color: lightgray; 
+    /* margin: 0; 
+    padding: 0; */
+    border-top: 0;
+    border: 1px solid grey; 
+}
+
+.button{
+    border: 2px solid skyblue;
+    margin-top: 20px;
+    padding: 1px;
+    text-align: center;
+}
+
+button{
+    border: none;
+    background-color: white;
+}
+
